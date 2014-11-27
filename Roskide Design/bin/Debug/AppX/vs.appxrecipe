@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>AYUSH</Machine>
+    <WindowsUser>ayush%27s</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>50255489-0724-4977-977d-5f66b3db12ac</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AB918413BB2825932BFFD43BDD7EDA0A0C95183C690B797EE9AFB9970B9EBFE6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>50255489-0724-4977-977d-5f66b3db12ac_1.0.0.0_neutral__nanbqp3p9xvat</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>50255489-0724-4977-977d-5f66b3db12ac_nanbqp3p9xvat!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>50255489-0724-4977-977d-5f66b3db12ac</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=ayush's</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T09:26:54.895</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.exe">
+      <PackagePath>Roskide Design.exe</PackagePath>
+      <Modified>2014-11-27T09:26:53.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Xml\Hotels.xml">
+      <PackagePath>Assets\Xml\Hotels.xml</PackagePath>
+      <Modified>2014-11-27T09:15:21.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\hotel.jpg">
+      <PackagePath>Asssets\hotel.jpg</PackagePath>
+      <Modified>2014-11-27T03:43:01.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\resturant.jpg">
+      <PackagePath>Asssets\resturant.jpg</PackagePath>
+      <Modified>2014-11-27T03:21:10.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\check.png">
+      <PackagePath>check.png</PackagePath>
+      <Modified>2014-11-27T03:12:09.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\roskilderising-620x400.png">
+      <PackagePath>Assets\roskilderising-620x400.png</PackagePath>
+      <Modified>2014-11-27T02:35:55.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\SplashScreen.scale-100.png">
+      <PackagePath>Asssets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2014-11-27T02:33:20.686</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-27T02:35:55.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2013-07-23T13:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2014-11-27T02:26:12.641</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-27T05:59:03.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\GroupedItemsPage.xbf">
+      <PackagePath>View\GroupedItemsPage.xbf</PackagePath>
+      <Modified>2014-11-27T05:59:03.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\GroupDetailPage.xbf">
+      <PackagePath>View\GroupDetailPage.xbf</PackagePath>
+      <Modified>2014-11-27T05:59:03.035</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Hotels.xbf">
+      <PackagePath>View\Hotels.xbf</PackagePath>
+      <Modified>2014-11-27T09:26:53.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\ItemDetailPage.xbf">
+      <PackagePath>View\ItemDetailPage.xbf</PackagePath>
+      <Modified>2014-11-27T05:59:03.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Splash.xbf">
+      <PackagePath>View\Splash.xbf</PackagePath>
+      <Modified>2014-11-27T05:59:03.048</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.xr.xml">
+      <PackagePath>Roskide Design.xr.xml</PackagePath>
+      <Modified>2014-11-27T09:26:52.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-27T09:26:54.340</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

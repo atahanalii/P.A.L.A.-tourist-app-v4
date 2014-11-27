@@ -1,0 +1,35 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Roskide_Design.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Model="using:Roskide_Design.Model"
+    xmlns:ViewModel="using:Roskide_Design.ViewModel"
+    x:Class="Roskide_Design.View.Hotels"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.DataContext>
+            <ViewModel:HotelViewModel/>
+        </Grid.DataContext>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="161*"/>
+            <ColumnDefinition Width="522*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="6,54,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="69" Width="626" Grid.Column="1"/>
+
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="368" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="394"/>
+        <ScrollContentPresenter Grid.Column="1" HorizontalAlignment="Left" Height="486" Margin="426,32,0,0" Grid.Row="2" VerticalAlignment="Top" Width="582"/>
+        <ListView HorizontalAlignment="Left" Height="425" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="312" SelectedItem="{Binding SelectedHotels.Name}">
+            <ListViewItem Content="{Binding Hotels[0].Name}" Margin="0"/>
+        </ListView>
+
+
+    </Grid>
+</Page>
