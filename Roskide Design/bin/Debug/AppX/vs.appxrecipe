@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.exe">
       <PackagePath>Roskide Design.exe</PackagePath>
-      <Modified>2014-11-27T11:20:40.897</Modified>
+      <Modified>2014-11-27T11:44:28.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\bin\Debug\RssFeed.dll">
       <PackagePath>RssFeed.dll</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
-      <Modified>2014-11-27T02:26:12.641</Modified>
+      <Modified>2014-11-27T11:42:20.024</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -102,7 +102,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\GroupedItemsPage.xbf">
       <PackagePath>View\GroupedItemsPage.xbf</PackagePath>
-      <Modified>2014-11-27T10:59:08.294</Modified>
+      <Modified>2014-11-27T11:44:27.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\GroupDetailPage.xbf">
       <PackagePath>View\GroupDetailPage.xbf</PackagePath>
@@ -122,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Weathers.xbf">
       <PackagePath>View\Weathers.xbf</PackagePath>
-      <Modified>2014-11-27T10:59:08.303</Modified>
+      <Modified>2014-11-27T11:44:27.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.xr.xml">
       <PackagePath>Roskide Design.xr.xml</PackagePath>
