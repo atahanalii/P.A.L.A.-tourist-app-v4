@@ -1,1 +1,2 @@
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Roskide Design.csproj;neutral
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\RSSFeed.csproj;neutral

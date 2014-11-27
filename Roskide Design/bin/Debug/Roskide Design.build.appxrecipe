@@ -19,6 +19,9 @@
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.exe">
       <PackagePath>Roskide Design.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\bin\Debug\RssFeed.dll">
+      <PackagePath>RssFeed.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Xml\Hotels.xml">
       <PackagePath>Assets\Xml\Hotels.xml</PackagePath>
     </AppxPackagedFile>
@@ -27,6 +30,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\resturant.jpg">
       <PackagePath>Asssets\resturant.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\weather.jpg">
+      <PackagePath>Asssets\weather.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\check.png">
       <PackagePath>check.png</PackagePath>
@@ -82,6 +88,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Splash.xbf">
       <PackagePath>View\Splash.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Weathers.xbf">
+      <PackagePath>View\Weathers.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.xr.xml">
       <PackagePath>Roskide Design.xr.xml</PackagePath>

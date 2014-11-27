@@ -10,6 +10,7 @@ Assets\Xml\Hotels.xml
 Asssets\hotel.jpg
 Asssets\resturant.jpg
 Asssets\SplashScreen.scale-100.png
+Asssets\weather.jpg
 App.xbf
 Roskide Design.xr.xml
 View\GroupDetailPage.xbf
@@ -17,5 +18,6 @@ View\GroupedItemsPage.xbf
 View\Hotels.xbf
 View\ItemDetailPage.xbf
 View\Splash.xbf
+View\Weathers.xbf
 check.png
 DataModel\SampleData.json

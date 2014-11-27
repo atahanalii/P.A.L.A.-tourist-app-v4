@@ -40,10 +40,23 @@
                     </StackPanel.Background>
                     <TextBlock TextWrapping="Wrap" Text="Hotels" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
                 </StackPanel>
+                <StackPanel x:Name="Resturant" Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="590,0,0,0" VerticalAlignment="Top">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/Asssets/resturant.jpg" />
+                    </StackPanel.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Resturants" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
+                <StackPanel x:Name="Leisure" Grid.ColumnSpan="4" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="850,0,0,0" VerticalAlignment="Top">
+                    <TextBlock TextWrapping="Wrap" Text="Leisure" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
+                <StackPanel x:ConnectionId='2' x:Name="Weathers" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Left" Width="242"  Height="246" Margin="1110,0,0,0" VerticalAlignment="Top"                                    >
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/Asssets/weather.jpg" />
+                    </StackPanel.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Weather" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
                 
-                <StackPanel Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="590,0,0,0" VerticalAlignment="Top" Background="#FF5EB23E"/>
-                <StackPanel Grid.ColumnSpan="4" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="850,0,0,0" VerticalAlignment="Top" Background="#FFB93232"/>
-                <StackPanel Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Left" Width="242"  Height="246" Margin="1110,0,0,0" VerticalAlignment="Top" Background="#FF444AC9"/>
+                
             </Grid>
         </AppBar>
     </Page.TopAppBar>
@@ -65,7 +78,7 @@
         </Grid.RowDefinitions>
 
         <!-- Horizontal scrolling grid -->
-        <GridView x:ConnectionId='2'
+        <GridView x:ConnectionId='3'
             x:Name="itemGridView"
             AutomationProperties.AutomationId="ItemGridView"
             AutomationProperties.Name="Grouped Items"
@@ -99,7 +112,7 @@
                     <GroupStyle.HeaderTemplate>
                         <DataTemplate>
                             <Grid Margin="0,0,0,2">
-                                <Button x:ConnectionId='3' Foreground="{ThemeResource ApplicationHeaderForegroundThemeBrush}"
+                                <Button x:ConnectionId='4' Foreground="{ThemeResource ApplicationHeaderForegroundThemeBrush}"
                                     AutomationProperties.Name="Group Title"
                                                         
                                     Style="{StaticResource TextBlockButtonStyle}" >

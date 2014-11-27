@@ -102,9 +102,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
@@ -132,6 +129,9 @@
     <Compile Include="View\Splash.xaml.cs">
       <DependentUpon>Splash.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\Weathers.xaml.cs">
+      <DependentUpon>Weathers.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -140,6 +140,7 @@
     <Content Include="Assets\Xml\Hotels.xml" />
     <Content Include="Asssets\hotel.jpg" />
     <Content Include="Asssets\resturant.jpg" />
+    <Content Include="Asssets\weather.jpg" />
     <Content Include="check.png" />
     <None Include="Common\ReadMe.txt" />
     <None Include="Roskide Design_TemporaryKey.pfx" />
@@ -181,6 +182,16 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\Weathers.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RssFeed\RSSFeed.csproj">
+      <Project>{dc6c1d6c-7203-40dc-8b2d-17aaa445465c}</Project>
+      <Name>RSSFeed</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>

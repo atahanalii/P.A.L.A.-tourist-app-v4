@@ -40,10 +40,23 @@
                     </StackPanel.Background>
                     <TextBlock TextWrapping="Wrap" Text="Hotels" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
                 </StackPanel>
+                <StackPanel x:Name="Resturant" Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="590,0,0,0" VerticalAlignment="Top">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/Asssets/resturant.jpg" />
+                    </StackPanel.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Resturants" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
+                <StackPanel x:Name="Leisure" Grid.ColumnSpan="4" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="850,0,0,0" VerticalAlignment="Top">
+                    <TextBlock TextWrapping="Wrap" Text="Leisure" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
+                <StackPanel x:Name="Weathers" Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Left" Width="242"  Height="246" Margin="1110,0,0,0" VerticalAlignment="Top" DoubleTapped="Weather_DoubleTapped">
+                    <StackPanel.Background>
+                        <ImageBrush ImageSource="/Asssets/weather.jpg" />
+                    </StackPanel.Background>
+                    <TextBlock TextWrapping="Wrap" Text="Weather" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
+                </StackPanel>
                 
-                <StackPanel Grid.ColumnSpan="3" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="590,0,0,0" VerticalAlignment="Top" Background="#FF5EB23E"/>
-                <StackPanel Grid.ColumnSpan="4" Grid.Column="0" HorizontalAlignment="Left" Width="242" Height="246" Margin="850,0,0,0" VerticalAlignment="Top" Background="#FFB93232"/>
-                <StackPanel Grid.ColumnSpan="2" Grid.Column="0" HorizontalAlignment="Left" Width="242"  Height="246" Margin="1110,0,0,0" VerticalAlignment="Top" Background="#FF444AC9"/>
+                
             </Grid>
         </AppBar>
     </Page.TopAppBar>

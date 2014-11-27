@@ -129,6 +129,11 @@ namespace Roskide_Design
         {
             this.Frame.Navigate(typeof(Hotels));
         }
+
+        private void Weather_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Weather));
+        }
        
     }
 }

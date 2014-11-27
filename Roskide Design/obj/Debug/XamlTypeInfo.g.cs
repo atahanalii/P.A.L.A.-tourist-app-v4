@@ -124,7 +124,7 @@ namespace Roskide_Design.Roskide_Design_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[13];
+            _typeNameTable = new string[14];
             _typeNameTable[0] = "Roskide_Design.GroupedItemsPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
@@ -138,8 +138,9 @@ namespace Roskide_Design.Roskide_Design_XamlTypeInfo
             _typeNameTable[10] = "Roskide_Design.View.Hotels";
             _typeNameTable[11] = "Roskide_Design.ItemDetailPage";
             _typeNameTable[12] = "Roskide_Design.View.Splash";
+            _typeNameTable[13] = "Roskide_Design.View.Weather";
 
-            _typeTable = new global::System.Type[13];
+            _typeTable = new global::System.Type[14];
             _typeTable[0] = typeof(global::Roskide_Design.GroupedItemsPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
@@ -153,6 +154,7 @@ namespace Roskide_Design.Roskide_Design_XamlTypeInfo
             _typeTable[10] = typeof(global::Roskide_Design.View.Hotels);
             _typeTable[11] = typeof(global::Roskide_Design.ItemDetailPage);
             _typeTable[12] = typeof(global::Roskide_Design.View.Splash);
+            _typeTable[13] = typeof(global::Roskide_Design.View.Weather);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -194,6 +196,7 @@ namespace Roskide_Design.Roskide_Design_XamlTypeInfo
         private object Activate_10_Hotels() { return new global::Roskide_Design.View.Hotels(); }
         private object Activate_11_ItemDetailPage() { return new global::Roskide_Design.ItemDetailPage(); }
         private object Activate_12_Splash() { return new global::Roskide_Design.View.Splash(); }
+        private object Activate_13_Weather() { return new global::Roskide_Design.View.Weather(); }
         private void MapAdd_5_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
@@ -291,6 +294,13 @@ namespace Roskide_Design.Roskide_Design_XamlTypeInfo
             case 12:   //  Roskide_Design.View.Splash
                 userType = new global::Roskide_Design.Roskide_Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_12_Splash;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 13:   //  Roskide_Design.View.Weather
+                userType = new global::Roskide_Design.Roskide_Design_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_Weather;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

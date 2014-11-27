@@ -1,5 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\ayush's\documents\visual studio 2013\projects\roskide design\roskide design\obj\debug\intermediatexaml\roskide design.exe" HashGuid="e534fb11-fa72-acc5-04ce-7640fa04a8f6" />
+    <LocalAssembly PathName="c:\users\ayush's\documents\visual studio 2013\projects\roskide design\roskide design\obj\debug\intermediatexaml\roskide design.exe" HashGuid="0acc6df0-a2e2-a1a5-bc2c-a46b3b009dcb" />
+    <ReferenceAssembly PathName="c:\users\ayush's\documents\visual studio 2013\projects\roskide design\rssfeed\bin\debug\rssfeed.dll" HashGuid="0f7388b6-4ac5-aba8-9a50-1c52d16b3c69" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

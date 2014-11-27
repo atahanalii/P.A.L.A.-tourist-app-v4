@@ -10,6 +10,10 @@ C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide De
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\resources.pri
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\AppxManifest.xml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.build.appxrecipe
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\RssFeed.dll
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\RssFeed.pdb
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\RssFeed.pri
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\Roskide Design.csprojResolveAssemblyReference.cache
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\App.g.i.cs
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\App.g.cs
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupedItemsPage.g.i.cs
@@ -24,20 +28,21 @@ C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide De
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Splash.g.cs
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\XamlTypeInfo.g.cs
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\App.xaml
-C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupedItemsPage.xaml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupDetailPage.xaml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Hotels.xaml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\ItemDetailPage.xaml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Splash.xaml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\App.xbf
-C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupedItemsPage.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupDetailPage.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Hotels.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\ItemDetailPage.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Splash.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\XamlSaveStateFile.xml
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupedItemsPage.xaml
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\GroupedItemsPage.xbf
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\Roskide Design.exe
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\Roskide Design.pdb
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\Roskide Design.csproj.GenerateResource.Cache
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\priconfig.xml
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\priconfig.xml.intermediate
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\layout.resfiles
@@ -50,3 +55,8 @@ C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide De
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\qualifiers.txt.intermediate
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\ProjectArchitectures.txt
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Weathers.g.i.cs
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Weathers.g.cs
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Weathers.xaml
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\obj\Debug\View\Weathers.xbf
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\View\Weathers.xbf

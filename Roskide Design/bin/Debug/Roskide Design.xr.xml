@@ -16,6 +16,9 @@
     <RootPropertyPathName Name="Hotels" />
     <RootPropertyPathName Name="Item" />
     <RootPropertyPathName Name="Content" />
+    <RootPropertyPathName Name="SelectedItem" />
+    <RootPropertyPathName Name="PublishedOn" />
+    <RootPropertyPathName Name="Author" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application">
@@ -33,6 +36,7 @@
       <RootProperty Name="RelativeSource" />
       <RootProperty Name="Source" />
       <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
     <RootType FullName="Windows.UI.Xaml.Data.CollectionViewSource">
@@ -97,6 +101,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Inlines" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.TransitionCollection" />
     <RootType FullName="Windows.UI.Xaml.Media.Animation.EntranceThemeTransition" />
@@ -135,6 +140,9 @@
       <RootProperty Name="Child" />
       <RootProperty Name="Width" />
       <RootProperty Name="Height" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
@@ -189,6 +197,8 @@
       <RootProperty Name="Width" />
       <RootProperty Name="SelectedItem" />
       <RootProperty Name="Items" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
       <RootProperty Name="Content" />
@@ -207,5 +217,12 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Roskide_Design.View.Splash" />
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
+    </RootType>
+    <RootType FullName="Roskide_Design.View.Weather" />
   </Roots.RootTypes>
 </Roots>
