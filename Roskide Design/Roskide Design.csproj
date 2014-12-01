@@ -129,9 +129,6 @@
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
-    <Compile Include="View\Resturants.xaml.cs">
-      <DependentUpon>Resturants.xaml</DependentUpon>
-    </Compile>
     <Compile Include="View\Splash.xaml.cs">
       <DependentUpon>Splash.xaml</DependentUpon>
     </Compile>
@@ -154,6 +151,7 @@
     <Content Include="View\images\resturant.jpg" />
     <Content Include="Asssets\weather.jpg" />
     <Content Include="check.png" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="Common\ReadMe.txt" />
     <None Include="Roskide Design_TemporaryKey.pfx" />
     <Content Include="Assets\roskilderising-620x400.png" />
@@ -189,10 +187,6 @@
     <Page Include="View\ItemDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\Resturants.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Splash.xaml">
       <SubType>Designer</SubType>

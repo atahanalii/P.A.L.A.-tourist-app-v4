@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-01T08:52:12.610</Modified>
+      <Modified>2014-12-01T10:05:59.252</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.exe">
       <PackagePath>Roskide Design.exe</PackagePath>
-      <Modified>2014-12-01T08:52:12.049</Modified>
+      <Modified>2014-12-01T10:05:58.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\bin\Debug\RssFeed.dll">
       <PackagePath>RssFeed.dll</PackagePath>
@@ -70,7 +70,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Xml\ResturantRating.xml">
       <PackagePath>Assets\Xml\ResturantRating.xml</PackagePath>
-      <Modified>2014-12-01T08:52:06.261</Modified>
+      <Modified>2014-12-01T08:53:49.046</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\check.png">
       <PackagePath>check.png</PackagePath>
@@ -154,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-01T08:52:12.424</Modified>
+      <Modified>2014-12-01T10:05:59.045</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
