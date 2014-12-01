@@ -11,9 +11,14 @@
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="Description" />
-    <RootPropertyPathName Name="SelectedHotels" />
+    <RootPropertyPathName Name="SelectedElephantModel" />
+    <RootPropertyPathName Name="EarSize" />
     <RootPropertyPathName Name="Name" />
-    <RootPropertyPathName Name="Hotels" />
+    <RootPropertyPathName Name="SelectedZoo" />
+    <RootPropertyPathName Name="imageURL" />
+    <RootPropertyPathName Name="Elephants" />
+    <RootPropertyPathName Name="ZooModels" />
+    <RootPropertyPathName Name="ImageUrl" />
     <RootPropertyPathName Name="Item" />
     <RootPropertyPathName Name="Content" />
     <RootPropertyPathName Name="SelectedItem" />
@@ -28,6 +33,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="DataContext" />
       <RootProperty Name="Resources" />
+      <RootProperty Name="BottomAppBar" />
       <RootProperty Name="TopAppBar" />
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
@@ -36,6 +42,7 @@
       <RootProperty Name="RelativeSource" />
       <RootProperty Name="Source" />
       <RootProperty Name="ElementName" />
+      <RootProperty Name="Mode" />
       <RootProperty Name="Path" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
@@ -59,10 +66,10 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="DataContext" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
       <RootMethod Name="GetRowSpan" />
       <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetRow" />
@@ -73,14 +80,23 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
-      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Width" />
       <RootProperty Name="Children" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Background" />
       <RootEvent Name="DoubleTapped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
@@ -170,6 +186,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Command" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="RenderTransformOrigin" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Roskide_Design.GroupedItemsPage" />
@@ -181,29 +199,22 @@
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Roskide_Design.GroupDetailPage" />
-    <RootType FullName="Roskide_Design.ViewModel.HotelViewModel" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ScrollContentPresenter">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Width" />
-    </RootType>
+    <RootType FullName="Roskide_Design.ViewModel.MainViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Height" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
-      <RootProperty Name="SelectedItem" />
-      <RootProperty Name="Items" />
       <RootProperty Name="ItemsSource" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="SelectedItem" />
       <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="Margin" />
+    <RootType FullName="Windows.UI.Xaml.Controls.CommandBar">
+      <RootProperty Name="PrimaryCommands" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarSeparator" />
     <RootType FullName="Roskide_Design.View.Hotels" />
     <RootType FullName="Windows.UI.Xaml.Controls.GridViewItem">
       <RootProperty Name="Content" />

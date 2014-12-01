@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Navigation;
 using RssFeed;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
-using RssFeed;
+
 using RssFeed = RssFeed.RssFeeder;
 
 namespace Roskide_Design.View

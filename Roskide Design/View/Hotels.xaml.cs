@@ -25,6 +25,15 @@ namespace Roskide_Design.View
         public Hotels()
         {
             this.InitializeComponent();
+            BtnRate.Visibility = Visibility.Collapsed;
+          
+        }
+
+      
+
+        private void ListViewHotels_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            BtnRate.Visibility = Visibility.Visible;
         }
     }
 }

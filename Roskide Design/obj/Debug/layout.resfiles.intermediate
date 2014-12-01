@@ -5,8 +5,12 @@ Assets\MediumGray.png
 Assets\roskilderising-620x400.png
 Assets\SmallLogo.scale-100.png
 Assets\SplashScreen.scale-100.png
+Assets\sports.jpg
 Assets\StoreLogo.scale-100.png
+Assets\Xml\HotelRating.xml
 Assets\Xml\Hotels.xml
+Assets\Xml\Resturant.xml
+Assets\Xml\ResturantRating.xml
 Asssets\hotel.jpg
 Asssets\resturant.jpg
 Asssets\SplashScreen.scale-100.png
@@ -21,3 +25,5 @@ View\Splash.xbf
 View\Weathers.xbf
 check.png
 DataModel\SampleData.json
+View\images\hotel.jpg
+View\images\resturant.jpg

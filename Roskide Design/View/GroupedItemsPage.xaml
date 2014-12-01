@@ -24,6 +24,20 @@
             ItemsPath="Items"
             d:Source="{Binding Groups, Source={d:DesignData Source=/DataModel/SampleData.json, Type=data:SampleDataSource}}"/>
     </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar Height="81">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal"/>
+                <StackPanel Grid.Column="1" HorizontalAlignment="Right" Orientation="Horizontal"/>
+                <AppBarButton Grid.Column="1" HorizontalAlignment="Left" Icon="Refresh" Label="" Margin="550,-4,0,0" VerticalAlignment="Top" Height="81" Width="155"/>
+                <AppBarButton Grid.Column="1" HorizontalAlignment="Left" Icon="Pin" Label="" Margin="450,-4,0,0" VerticalAlignment="Top" Height="81" Width="110"/>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
     <Page.TopAppBar>
         <AppBar Height="250">
             <Grid>
@@ -55,8 +69,8 @@
                     </StackPanel.Background>
                     <TextBlock TextWrapping="Wrap" Text="Weather" FontSize="45" FontFamily="Bodoni MT Black" TextAlignment="Center"/>
                 </StackPanel>
-                
-                
+
+
             </Grid>
         </AppBar>
     </Page.TopAppBar>
@@ -93,7 +107,7 @@
                 <DataTemplate>
                     <Grid HorizontalAlignment="Left" Width="380" Height="250">
                         <Border Background="{ThemeResource ListViewItemPlaceholderBackgroundThemeBrush}">
-                            <Image Source="{Binding ImagePath}" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                            <Image Source="{Binding ImagePath}" />
                         </Border>
                         <StackPanel VerticalAlignment="Bottom" Background="{ThemeResource ListViewItemOverlayBackgroundThemeBrush}">
                             <TextBlock Text="{Binding Title}" Foreground="{ThemeResource ListViewItemOverlayForegroundThemeBrush}" Style="{StaticResource TitleTextBlockStyle}" Height="60" Margin="15,0,15,0"/>

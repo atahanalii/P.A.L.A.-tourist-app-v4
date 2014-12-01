@@ -1,11 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Hotels>
-  <Hotel>
-    <name>dsfsdf</name>
-   
-  </Hotel>
-  <Hotel>
-    <name>dsfsdf</name>
-    >
-  </Hotel>
-</Hotels>
+  <hotels>
+    <hotel>
+      <name>Python</name>
+      <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
+      <imageurl>/Assets/elephants-9a.jpg</imageurl>
+      <count>1000</count>
+      <zoo>Expensive</zoo>
+    </hotel>
+    <hotel>
+      <name>Monty</name>
+      <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
+      <imageurl>/Assets/whiteElephant.jpg</imageurl>
+      <count>1000</count>
+      <zoo>Average</zoo>
+    </hotel>
+    <hotel>
+      <name>Ebbe</name>
+      <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
+      <imageurl></imageurl>
+      <count>78</count>
+      <zoo>Cheap</zoo>
+    </hotel>
+  </hotels>
+

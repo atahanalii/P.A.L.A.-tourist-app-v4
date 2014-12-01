@@ -9,27 +9,47 @@
     x:Class="Roskide_Design.View.Hotels"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="#FFD34141">
         <Grid.DataContext>
-            <ViewModel:HotelViewModel/>
+            <ViewModel:MainViewModel/>
         </Grid.DataContext>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="161*"/>
-            <ColumnDefinition Width="522*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="33*"/>
-        </Grid.RowDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="6,54,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="69" Width="626" Grid.Column="1"/>
 
-        <Image Grid.Column="1" HorizontalAlignment="Left" Height="368" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="394"/>
-        <ScrollContentPresenter Grid.Column="1" HorizontalAlignment="Left" Height="486" Margin="426,32,0,0" Grid.Row="2" VerticalAlignment="Top" Width="582"/>
-        <ListView HorizontalAlignment="Left" Height="425" Margin="0,10,0,0" Grid.Row="2" VerticalAlignment="Top" Width="312" SelectedItem="{Binding SelectedHotels.Name}">
-            <ListViewItem Content="{Binding Hotels[0].Name}" Margin="0"/>
+        <ListView x:Name="ListViewRating" Height="157" Margin="103,126,0,0" VerticalAlignment="Top" Width="354" ItemsSource="{Binding ZooModels, Mode=TwoWay}" HorizontalAlignment="Left" SelectedItem="{Binding SelectedZoo, Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Width="370">
+                        <Image Source="{Binding ImageUrl}"/>
+                        <TextBlock Text="{Binding Name}" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
         </ListView>
+        <TextBlock HorizontalAlignment="Left" Margin="614,48,0,0" TextWrapping="Wrap" Text="Hotels" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}"/>
+
+        <ListView x:Name="ListViewHotels" HorizontalAlignment="Left" Height="100" Margin="112,386,0,0" VerticalAlignment="Top" Width="207" ItemsSource="{Binding SelectedZoo.Elephants}" SelectedItem="{Binding SelectedElephantModel, Mode=TwoWay}" SelectionChanged="ListViewHotels_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Image HorizontalAlignment="Left" Height="336" Margin="319,126,0,0" VerticalAlignment="Top" Width="430" Source="{Binding SelectedElephantModel.imageURL}"/>
+        <TextBlock HorizontalAlignment="Left" Style="{StaticResource SubheaderTextBlockStyle}" Margin="254,338,0,0" TextWrapping="Wrap" Text="{Binding SelectedZoo.Name, Mode=TwoWay}" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="821,126,0,0" TextWrapping="Wrap" Text="{Binding SelectedElephantModel.Name, Mode=TwoWay}" VerticalAlignment="Top" Style="{StaticResource BodyTextBlockStyle}" Height="31" Width="452"/>
+        <TextBlock HorizontalAlignment="Left" Margin="771,200,0,0" TextWrapping="Wrap" Text="{Binding SelectedElephantModel.EarSize, Mode=TwoWay}" VerticalAlignment="Top" Style="{StaticResource BodyTextBlockStyle}"/>
+        <Button x:Name="BtnRate" Content="Rate" HorizontalAlignment="Left" Margin="1118,706,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.465,0.003"/>
+
 
 
     </Grid>
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Icon="Add" />
+            <AppBarSeparator />
+            <AppBarButton Icon="Edit" />
+            <AppBarButton Icon="Remove" />
+            <AppBarSeparator />
+            <AppBarButton Icon="filter" />
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

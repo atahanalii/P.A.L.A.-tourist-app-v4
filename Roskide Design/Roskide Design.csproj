@@ -105,9 +105,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Hotels.cs" />
+    <Compile Include="Model\HotelModel.cs" />
+    <Compile Include="Model\RatingModel.cs" />
     <Compile Include="Properties\Annotations.cs" />
-    <Compile Include="ViewModel\HotelViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\resturant.cs" />
     <Compile Include="View\GroupedItemsPage.xaml.cs">
       <DependentUpon>GroupedItemsPage.xaml</DependentUpon>
     </Compile>
@@ -126,6 +129,9 @@
     <Compile Include="Common\NavigationHelper.cs" />
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\ObservableDictionary.cs" />
+    <Compile Include="View\Resturants.xaml.cs">
+      <DependentUpon>Resturants.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Splash.xaml.cs">
       <DependentUpon>Splash.xaml</DependentUpon>
     </Compile>
@@ -137,9 +143,15 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <Content Include="Assets\sports.jpg" />
     <Content Include="Assets\Xml\Hotels.xml" />
+    <Content Include="Assets\Xml\HotelRating.xml" />
+    <Content Include="Assets\Xml\Resturant.xml" />
+    <Content Include="Assets\Xml\ResturantRating.xml" />
     <Content Include="Asssets\hotel.jpg" />
     <Content Include="Asssets\resturant.jpg" />
+    <Content Include="View\images\hotel.jpg" />
+    <Content Include="View\images\resturant.jpg" />
     <Content Include="Asssets\weather.jpg" />
     <Content Include="check.png" />
     <None Include="Common\ReadMe.txt" />
@@ -177,6 +189,10 @@
     <Page Include="View\ItemDetailPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\Resturants.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\Splash.xaml">
       <SubType>Designer</SubType>

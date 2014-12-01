@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resturants>
+  <resturant>
+    <name>Python</name>
+    <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
+    <imageurl>/Assets/elephants-9a.jpg</imageurl>
+    <count>1000</count>
+    <zoo>Expensive</zoo>
+  </resturant>
+</resturants>

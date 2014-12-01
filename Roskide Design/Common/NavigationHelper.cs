@@ -9,7 +9,7 @@ using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
-using CollectionOfElephants.Common;
+using Roskide_Design.Common;
 
 namespace Roskide_Design.Common
 {
