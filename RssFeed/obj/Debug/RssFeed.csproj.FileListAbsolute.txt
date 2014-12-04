@@ -14,3 +14,4 @@ C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\ob
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\obj\Debug\qualifiers.txt
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\obj\Debug\qualifiers.txt.intermediate
 C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\ayush's\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\obj\Debug\RSSFeed.csprojResolveAssemblyReference.cache

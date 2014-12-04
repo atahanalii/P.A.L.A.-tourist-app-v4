@@ -11,9 +11,13 @@ Assets\Xml\HotelRating.xml
 Assets\Xml\Hotels.xml
 Assets\Xml\Resturant.xml
 Assets\Xml\ResturantRating.xml
+Asssets\10822726_10205393497142739_222083243_n.jpg
+Asssets\alacarte07-960x400.jpg
+Asssets\BonPesto.jpg
 Asssets\hotel.jpg
 Asssets\resturant.jpg
 Asssets\SplashScreen.scale-100.png
+Asssets\tastybites.jpg
 Asssets\weather.jpg
 App.xbf
 Roskide Design.xr.xml
@@ -25,5 +29,9 @@ View\Splash.xbf
 View\Weathers.xbf
 check.png
 DataModel\SampleData.json
+View\images\church.jpg
 View\images\hotel.jpg
+View\images\kongre.jpg
+View\images\library.jpg
+View\images\police.jpg
 View\images\resturant.jpg

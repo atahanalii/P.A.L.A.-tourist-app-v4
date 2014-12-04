@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
   <hotels>
     <hotel>
-      <name>Python</name>
+      <name>Alacarta</name>
       <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
-      <imageurl>/Assets/elephants-9a.jpg</imageurl>
+      <imageurl>/Asssets/alacarte07-960x400.jpg</imageurl>
       <count>1000</count>
       <zoo>Expensive</zoo>
     </hotel>
     <hotel>
-      <name>Monty</name>
+      <name>BonPesto</name>
       <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
-      <imageurl>/Assets/whiteElephant.jpg</imageurl>
+      <imageurl>/Asssets/BonPesto.jpg</imageurl>
       <count>1000</count>
       <zoo>Average</zoo>
     </hotel>
     <hotel>
-      <name>Ebbe</name>
+      <name>TastyBites</name>
       <discription>Curabitur class aliquam vestibulum nam curae maecenas sed integer cras phasellus suspendisse quisque donec dis praesent accumsan bibendum pellentesque condimentum adipiscing eti</discription>
-      <imageurl></imageurl>
+      <imageurl>/Asssets/tastybites.jpg</imageurl>
       <count>78</count>
       <zoo>Cheap</zoo>
     </hotel>

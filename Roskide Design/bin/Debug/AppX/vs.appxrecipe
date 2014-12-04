@@ -20,21 +20,37 @@
     <AppXManifest Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-01T10:05:59.252</Modified>
+      <Modified>2014-12-01T12:58:30.814</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\Roskide Design.exe">
       <PackagePath>Roskide Design.exe</PackagePath>
-      <Modified>2014-12-01T10:05:58.798</Modified>
+      <Modified>2014-12-01T12:58:29.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\RssFeed\bin\Debug\RssFeed.dll">
       <PackagePath>RssFeed.dll</PackagePath>
-      <Modified>2014-12-01T06:45:49.209</Modified>
+      <Modified>2014-12-01T12:58:28.198</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\sports.jpg">
       <PackagePath>Assets\sports.jpg</PackagePath>
       <Modified>2014-11-28T09:39:19.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\BonPesto.jpg">
+      <PackagePath>Asssets\BonPesto.jpg</PackagePath>
+      <Modified>2014-12-01T11:01:24.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\10822726_10205393497142739_222083243_n.jpg">
+      <PackagePath>Asssets\10822726_10205393497142739_222083243_n.jpg</PackagePath>
+      <Modified>2014-12-01T11:01:24.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\tastybites.jpg">
+      <PackagePath>Asssets\tastybites.jpg</PackagePath>
+      <Modified>2014-12-01T11:01:24.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\alacarte07-960x400.jpg">
+      <PackagePath>Asssets\alacarte07-960x400.jpg</PackagePath>
+      <Modified>2014-12-01T10:54:01.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Asssets\hotel.jpg">
       <PackagePath>Asssets\hotel.jpg</PackagePath>
@@ -44,9 +60,25 @@
       <PackagePath>Asssets\resturant.jpg</PackagePath>
       <Modified>2014-12-01T02:59:37.387</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\church.jpg">
+      <PackagePath>View\images\church.jpg</PackagePath>
+      <Modified>2014-12-01T10:48:23.133</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\hotel.jpg">
       <PackagePath>View\images\hotel.jpg</PackagePath>
       <Modified>2014-11-27T03:43:01.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\kongre.jpg">
+      <PackagePath>View\images\kongre.jpg</PackagePath>
+      <Modified>2014-12-01T10:48:23.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\library.jpg">
+      <PackagePath>View\images\library.jpg</PackagePath>
+      <Modified>2014-12-01T10:48:23.167</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\police.jpg">
+      <PackagePath>View\images\police.jpg</PackagePath>
+      <Modified>2014-12-01T10:48:23.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\View\images\resturant.jpg">
       <PackagePath>View\images\resturant.jpg</PackagePath>
@@ -58,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Xml\Hotels.xml">
       <PackagePath>Assets\Xml\Hotels.xml</PackagePath>
-      <Modified>2014-12-01T08:00:43.582</Modified>
+      <Modified>2014-12-01T11:05:54.348</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\Assets\Xml\HotelRating.xml">
       <PackagePath>Assets\Xml\HotelRating.xml</PackagePath>
@@ -118,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\DataModel\SampleData.json">
       <PackagePath>DataModel\SampleData.json</PackagePath>
-      <Modified>2014-12-01T02:58:34.059</Modified>
+      <Modified>2014-12-01T10:49:13.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -154,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ayush%27s\Documents\Visual Studio 2013\Projects\Roskide Design\Roskide Design\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-01T10:05:59.045</Modified>
+      <Modified>2014-12-01T12:58:30.531</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
